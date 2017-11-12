@@ -2,10 +2,13 @@
 Copy docker volumes between machines
 
 This simple bash script allows you to copy docker volumes between remote/local machines!
+
 Syntax:
+
 `docker-cp [source_hostname:]<source_volume> [dest_hostname:]<dest_volume>`
 
 Requirements:
+
 You must be ablet to ssh into any remote hosts you name!
 
 This script transfers volume files with a fairly simple mechanism:
