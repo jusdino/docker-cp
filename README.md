@@ -8,8 +8,7 @@ Syntax:
 `docker-cp [source_hostname:]<source_volume> [dest_hostname:]<dest_volume>`
 
 Requirements:
-
-You must be ablet to ssh into any remote hosts you name!
+- You must be ablet to ssh into any remote hosts you name!
 
 This script transfers volume files with a fairly simple mechanism:
 - It spins up an alpine container on the source machine, mounting the source volume
